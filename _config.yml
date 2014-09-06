@@ -1,0 +1,11 @@
+markdown: rdiscount
+highlighter: pygments
+permalink: /:year/:month/:title.html
+excerpt_separator: <!--more-->
+
+url:
+baseurl:
+
+sass:
+  sass_dir: public/css
+  style: :compressed

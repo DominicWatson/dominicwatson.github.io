@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="single row gutters">
+  <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
+  <h2>{{ page.title }}</h2>
+
+  {{ content }}
+</article>
+
+<section id="comments-container" title="discussion">
+	<div id="disqus_thread"></div>
+
+	<script>
+		window.disqus_shortname = 'frankfusion';
+	</script>
+	<script type="text/javascript" async="true" src="http://frankfusion.disqus.com/embed.js"></script>
+</section>
