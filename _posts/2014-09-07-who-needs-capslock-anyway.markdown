@@ -16,7 +16,7 @@ The caps lock key is in a prime location and something that I very rarely use. I
 
 ## Mapping keys
 
-Once I had a new 'hyper' modifier, I then needed to map key combinations to individual keys. This was sadly less straight forward than I had hoped. There seems to be no native method to do this, using the `xmodmap` utility only allows single keys to be mapped to other single keys as far as I could make out.
+Once I had a new 'hyper' modifier, I then needed to map key combinations to individual keys. This was sadly less straight forward than I had hoped. There seems to be no native method to do this, using the [xmodmap](http://linux.die.net/man/1/xmodmap) utility only allows single keys to be mapped to other single keys as far as I could make out.
 
 My solution involved installing a utility called [AutoKey](https://code.google.com/p/autokey/). This utility allows you to define phrases that can be triggered by an arbitrary key combination. A phrase could be some lorem ipsum text, or, as wanted for our example, one or more special keys (such as modifiers and arrow keys). To map `CapsLock+J` to the left arrow key for example, I created a phrase with the content `<left>` and gave it a hotkey combination of `<hyper>+j`.
 
