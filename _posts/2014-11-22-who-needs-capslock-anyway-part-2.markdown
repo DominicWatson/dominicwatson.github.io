@@ -66,6 +66,11 @@ The following UNIX Stackexchange question and answer really nailed it for me and
 
 [http://unix.stackexchange.com/questions/153841/how-to-make-altgri-j-k-l-work-properly-as-cursor-keys](http://unix.stackexchange.com/questions/153841/how-to-make-altgri-j-k-l-work-properly-as-cursor-keys)
 
+Finally, this guide on the Ubuntu community wiki got me started and has more in depth information on creating custom layouts:
+
+[https://help.ubuntu.com/community/Custom keyboard layout definitions?action=show&redirect=Howto%3A+Custom+keyboard+layout+definitions](https://help.ubuntu.com/community/Custom keyboard layout definitions?action=show&redirect=Howto%3A+Custom+keyboard+layout+definitions)
+
+
 
 
 
