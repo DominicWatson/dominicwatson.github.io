@@ -4,7 +4,7 @@ title: Who needs caps lock anyway (part 2)
 time: 2014-11-22 15:45:00 +00:00
 ---
 
-In my previous post, I described how I used a combination of modifying my CAPSLOCK behaviour + a utility called AutoKey to remap a bunch of keys for easier keyboard arrow navigation. This solution was not quite perfect due to the AutoKey layer in the middle which meant that the key presses didn't always register correctly in all situations. After a little down time from coding, I finally have a working solution.
+In my previous post, I described how I used a combination of modifying my CAPSLOCK behaviour + a utility called AutoKey to remap a bunch of keys for easier keyboard arrow navigation. This solution was not quite perfect due to the AutoKey layer in the middle which meant that the key presses didn't always register correctly in all situations. Today I had a little downtime from coding and I spent the time figuring out a better solution.
 
 <!--more-->
 
