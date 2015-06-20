@@ -23,12 +23,12 @@ It's a gender neutral, pre-school show, but even that shouldn't matter (see the 
 
 # Not deliberate, I think
 
-I'm pretty sure that the [makers of the show](http://www.octonauts.com/meomi.html), a man and woman team, aren't sexist. I image that they are good people producing a great show but, like me, they're conditioned to the status quo and the imbalance hasn't crossed their mind.
+I'm pretty sure that the [makers of the show](http://www.octonauts.com/meomi.html), a man and woman team, aren't sexist. I image that they are good people producing a great show but, like me, they're conditioned to the status quo and githe imbalance hasn't crossed their mind.
 
 I think this is true of a lot of people in the tech industry; we're so used to the current male dominated situation, we wouldn't notice the subtle bias in our attitudes that prevent us from seeing that this situation is odd, very odd. We're not sexist or bad, just blissfully conditioned. Perhaps this is also true of the Atlassian speaker.
 
 # Its about the men, as much as it is the women
 
-What's interesting about the TED talk is that it is from the perspective of a man and how we wants his son to grow up. I feel it is the same here. *If* we want to redress the balance, we need to call out to the good guys, the conference speakers, those with influence: become aware of this subtle and pervasive attitude in ourselves and make adjustments to put it right.
+What's interesting about the TED talk is that it is from the perspective of a man and how he wants his son to grow up. I feel it is the same here. *If* we want to redress the balance, we need to call out to the good guys, the conference speakers, those with influence: become aware of this subtle and pervasive attitude in ourselves and make adjustments to put it right.
 
 Over focus on distractions like the slide in the presentation don't help - and potentially damage "the cause". But raising awareness with the good guys can and should lead to situations where the guy might automatically choose a different angle with his slide in the first place.
