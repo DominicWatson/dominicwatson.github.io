@@ -23,7 +23,7 @@ It's a gender neutral, pre-school show, but even that shouldn't matter (see the 
 
 # Not deliberate, I think
 
-I'm pretty sure that the [makers of the show](http://www.octonauts.com/meomi.html), a man and woman team, aren't sexist. I image that they are good people producing a great show but, like me, they're used to the conditioned to the status quo and that it hasn't crossed their mind.
+I'm pretty sure that the [makers of the show](http://www.octonauts.com/meomi.html), a man and woman team, aren't sexist. I image that they are good people producing a great show but, like me, they're conditioned to the status quo and the imbalance hasn't crossed their mind.
 
 I think this is true of a lot of people in the tech industry; we're so used to the current male dominated situation, we wouldn't notice the subtle bias in our attitudes that prevent us from seeing that this situation is odd, very odd. We're not sexist or bad, just blissfully conditioned. Perhaps this is also true of the Atlassian speaker.
 
