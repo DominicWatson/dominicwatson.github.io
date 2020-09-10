@@ -1,4 +1,3 @@
-markdown: rdiscount
 highlighter: pygments
 permalink: /:year/:month/:title.html
 excerpt_separator: <!--more-->
