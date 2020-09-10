@@ -10,7 +10,7 @@ The [Law of Demeter][lod] is a pattern guideline aimed at object oriented progra
 
 Recently coding in ColdFusion against a .NET web service gifted me a great illustration of the thoughts behind Demeter's law so I thought I'd share it here.<!--more-->
 
-##How it might apply to CFML
+## How it might apply to CFML
 
 >Spies, dissidents, revolutionaries, and such are often organized into small groups of people called cells. Although individuals in each cell may know each other, they have no knowledge of those in other cells. If one cell is discovered, no amount of truth serim will reveal the names of others outside the cell. Eliminiting interactions between cells protects everyone.
 >
@@ -45,7 +45,7 @@ In this case, the service object is our cell contact. With the Law of Demeter in
 
 There are, of course, a million and one ways to code a data model layer and I am *not* saying that this is *the right* way to do it. I happen to like this sort of approach and hope that it serves as a good example of the Law of Demeter (would love to hear your opinions).
 
-##The web service (an example of how things can get bad when the law is ignored)
+## The web service (an example of how things can get bad when the law is ignored)
 
 In our CFML example above, we wouldn't be overly upset if we encountered a Service object that expected a bean as an argument, it's all code within the same application after all. I think it would be better not doing that, but all the same.
 
@@ -79,11 +79,11 @@ A more user friendly version might be:
 
 	saveEmail( int individualId, int emailId=0, string emailAddress ... etc. )
 
-###A benefit to the approach provided by the web service
+### A benefit to the approach provided by the web service
 
 One benefit is that the developers have to write far fewer methods for me to interact with. Perhaps time was a major issue contributing to the architectural choices made. Either way, the effect on me, the client, is clearly detrimental.
 
-##Wrapping up
+## Wrapping up
 
 Hopefully, the example above illustrates the ill-effects of 'going against' the Law of Demeter. I think that we should treat all modules of code that we write as if they were remote APIs, forcing ourselves to pay stricter attention to users of our code (even when it is likely only ourselves).
 
