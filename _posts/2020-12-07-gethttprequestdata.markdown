@@ -21,3 +21,5 @@ This won't necessarily show up with some cursory testing of request _times_. How
 * You call `GetHttpRequestData()` multiple times.
 
 The solution, as Ben points out, is to use `GetHttpRequestData( false )` if you do not care about the request body.
+
+I have raised an issue with the Lucee team to look into only reading the stream once: [https://luceeserver.atlassian.net/browse/LDEV-3176](https://luceeserver.atlassian.net/browse/LDEV-3176).
