@@ -75,6 +75,6 @@ scenarios:
             Cookie: "route=\{\{ route \}\}"
 ```
 
-Et voila. Hopefully that avoids some head scratching. Further info an conversation can be found here:
+Et voila. Hopefully that avoids some head scratching. Further info and conversation can be found here:
 
 [https://github.com/artilleryio/artillery/discussions/1061](https://github.com/artilleryio/artillery/discussions/1061)
