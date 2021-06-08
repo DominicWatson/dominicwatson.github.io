@@ -54,6 +54,7 @@ scenarios:
 Ideally, this cookie will be set dynamically from actual server responses rather than be hand coded like this. However, this is not possible right now (as of Artillery 1.7.2). What we _can_ do however, is create a variable that is an array of route IDs and use those to spread the load across your replicas:
 
 ```yaml
+{% raw %}
 config:
   variables:
     # This weird hack gives us a bunch of possibilities
@@ -72,7 +73,8 @@ scenarios:
     engine: "socketio"
     socketio:
         extraHeaders:
-            Cookie: "route=\{\{ route \}\}"
+            Cookie: "route={{ route }}"
+{% endraw %}
 ```
 
 Et voila. Hopefully that avoids some head scratching. Further info and conversation can be found here:
