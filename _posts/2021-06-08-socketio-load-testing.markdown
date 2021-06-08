@@ -35,9 +35,7 @@ _(I've yet to find any working examples with Gatling and socket.io - there certa
 
 We use Kubernetes and the official NGiNX ingress controller. For various reasons, when running a multi-replica application, we have sticky sessions enabled. These sticky sessions work by the ingress controller setting a `route` cookie for new traffic that "sticks" it to one of the running pods of the application. This works a treat when connecting to the socket.io server from a browser.
 
-When running the Artillery tests, however, these cookies are not sent back with subsequent requests. This means that the socket.io handshake calls fail because they get spread across multiple pods, rather than sticking to a single pod.
-
-This is caused by the socket.io client library for node which will not resend the cookies sent back due to cross domain security. And there's nothing we can do about that.
+When running the Artillery tests, however, these cookies are not sent back with subsequent requests. This means that the socket.io handshake calls fail because they get spread across multiple pods, rather than sticking to a single pod. This is caused by the socket.io client library for node which will not resend the cookies sent back due to cross domain security. And there's nothing we can do about that.
 
 ## Workaround
 
@@ -58,8 +56,10 @@ Ideally, this cookie will be set dynamically from actual server responses rather
 ```yaml
 config:
   variables:
-    # this weird hack gives us a bunch of possibilities to route to different servers and seemingly stick with
-    # them (this is a quirk of kubernetes nginx ingress load balancing it seems)
+    # This weird hack gives us a bunch of possibilities
+    # to route to different servers and seemingly stick with
+    # them (this is a quirk of kubernetes nginx ingress load 
+    # balancing it seems)
     route:
       - a
       - b
@@ -72,7 +72,7 @@ scenarios:
     engine: "socketio"
     socketio:
         extraHeaders:
-            Cookie: "route={{ route }}"
+            Cookie: "route=\{\{ route \}\}"
 ```
 
 Et voila. Hopefully that avoids some head scratching. Further info an conversation can be found here:
