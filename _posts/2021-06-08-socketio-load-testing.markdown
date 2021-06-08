@@ -31,7 +31,7 @@ scenarios:
 
 _(I've yet to find any working examples with Gatling and socket.io - there certainly is nothing out of the box as far as I can see)._
 
-## Problems with testing against load balanced in Kubernetes app
+## Sticky sessions issue
 
 We use Kubernetes and the official NGiNX ingress controller. For various reasons, when running a multi-replica application, we have sticky sessions enabled. These sticky sessions work by the ingress controller setting a `route` cookie for new traffic that "sticks" it to one of the running pods of the application. This works a treat when connecting to the socket.io server from a browser.
 
