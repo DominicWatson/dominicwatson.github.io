@@ -15,7 +15,7 @@ config:
   phases:
     - duration: 600
       arrivalRate: 1
-      rampTo: 1
+      rampTo: 10
 scenarios:
   - name: "Very simple test"
     engine: "socketio"
@@ -23,7 +23,7 @@ scenarios:
       - loop:
         - emit:
             channel: "msg"
-            data: "hello world! This is a random string: {{ $randomString() }}"
+            data: "hello world!"
             namespace: "/simpleloadtest"
         - think: 10
         count: 50
